@@ -1,0 +1,24 @@
+{
+    "name": "adeiming/slow-query-logger",
+    "description": "Reading slow queries and writing in the log",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adeiming\\SlowQueryLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "adeiming",
+            "email": "imingforum@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adeiming\\SlowQueryLogger\\SlowQueryLoggerProvider"
+            ]
+        }
+    },
+    "require": {}
+}
